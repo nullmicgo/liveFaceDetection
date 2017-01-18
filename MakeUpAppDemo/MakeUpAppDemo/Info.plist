@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+    <key>NSCalendarsUsageDescription</key>
+    <string>To give you a convenience ways to add event into your calendar, the system will collect your calendar permission for adding event into it. Please be assured that all data will be encrypted, the calendar function only for the use of adding event, the system will not store any data, and it will not be used for other purposes. </string>
+    <key>NSCameraUsageDescription</key>
+    <string>To give you a convenience ways to upload profile picture from your camera, the system will collect your permission to use the camera function. Please be assured that all data will be encrypted, the camera function only for the use of upload profile picture, the system will not store any extra data, and it will not be used for other purposes.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>To give you a convenience ways to use, the system will collect your microphone permission.</string>
+    <key>NSMotionUsageDescription</key>
+    <string>To give you a convenience ways to use, the system will collect your Motion permission.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>To give you a convenience ways to upload profile picture from your photo album, the system will collect photo within your photo library, it will not be transferred to the system. Please be assured that all data will be encrypted, the photo only for the use of upload profile picture, the system will not store any extra data, and it will not be used for other purposes. </string>
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>remote-notification</string>
+    </array>
+</dict>
+</plist>
